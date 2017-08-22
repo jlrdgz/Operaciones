@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="res.nombre.MainActivityResultadoNombre">
+
+    <TextView
+        android:id="@+id/resultado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Su nombre es: "
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="5dp" />
+
+    <TextView
+        android:id="@+id/resultado2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="__________"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="46dp" />
+</android.support.constraint.ConstraintLayout>
